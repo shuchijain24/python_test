@@ -9,7 +9,7 @@ STEPS-
 
 
 
-1. Creating a C file(.c extension) with some required functions. (Saved it as myfunction.c) 
+1. Creating a C file(.c extension) with some required functions. (Saved it as my_functions.c) 
 
 
 #include <stdio.h>
