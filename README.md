@@ -2,7 +2,12 @@
 Calling C function from python
 
 Calling C function from Python Program through ctypes module
+
+
+
 STEPS-
+
+
 
 1. Creating a C file(.c extension) with some required functions. (Saved it as myfunction.c) 
 
@@ -38,7 +43,7 @@ $ cc -fPIC -shared -o my_functions.so my_functions.c
 
 
 
-from ctypes import * so_file = "/<absolute path from the home directory my_functions.so"
+from ctypes import * so_file = "/<absolute path from the home directory>/my_functions.so"
 
 
 
